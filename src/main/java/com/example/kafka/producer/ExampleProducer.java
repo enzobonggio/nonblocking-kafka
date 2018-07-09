@@ -1,9 +1,9 @@
-package com.example.kafka.nonblockingkafka.producer;
+package com.example.kafka.producer;
 
-import com.example.kafka.nonblockingkafka.factory.ProducerFactory;
-import com.example.kafka.nonblockingkafka.factory.ProducerRecordFactory;
-import com.example.kafka.nonblockingkafka.model.ExampleBody;
-import com.example.kafka.nonblockingkafka.model.ExampleQueueMessage;
+import com.example.kafka.factory.ProducerFactory;
+import com.example.kafka.factory.ProducerRecordFactory;
+import com.example.kafka.model.ExampleBody;
+import com.example.kafka.model.ExampleQueueMessage;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,4 +1,4 @@
-package com.example.kafka.nonblockingkafka.model;
+package com.example.kafka.model;
 
 public interface UniqueKafka {
 

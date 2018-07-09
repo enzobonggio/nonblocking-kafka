@@ -1,6 +1,6 @@
-package com.example.kafka.nonblockingkafka.consumer;
+package com.example.kafka.consumer;
 
-import com.example.kafka.nonblockingkafka.model.ExampleQueueMessage;
+import com.example.kafka.model.ExampleQueueMessage;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.common.header.Header;

@@ -1,6 +1,6 @@
-package com.example.kafka.nonblockingkafka.producer;
+package com.example.kafka.producer;
 
-import com.example.kafka.nonblockingkafka.model.ExampleQueueMessage;
+import com.example.kafka.model.ExampleQueueMessage;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.common.header.Headers;

@@ -1,7 +1,7 @@
-package com.example.kafka.nonblockingkafka.factory;
+package com.example.kafka.factory;
 
-import com.example.kafka.nonblockingkafka.model.ExampleQueueMessage;
-import com.example.kafka.nonblockingkafka.producer.CustomJsonSerializer;
+import com.example.kafka.model.ExampleQueueMessage;
+import com.example.kafka.producer.CustomJsonSerializer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.beans.factory.annotation.Value;
@@ -31,5 +31,4 @@ public class ProducerFactory {
         SenderOptions<String, ExampleQueueMessage<T>> senderOptions = SenderOptions.create(props);
         return KafkaSender.create(senderOptions);
     }
-
 }

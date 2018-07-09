@@ -1,7 +1,7 @@
-package com.example.kafka.nonblockingkafka.factory;
+package com.example.kafka.factory;
 
-import com.example.kafka.nonblockingkafka.model.ExampleQueueMessage;
-import com.example.kafka.nonblockingkafka.model.UniqueKafka;
+import com.example.kafka.model.ExampleQueueMessage;
+import com.example.kafka.model.UniqueKafka;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.common.header.internals.RecordHeader;
 import org.springframework.stereotype.Component;

@@ -1,11 +1,11 @@
-package com.example.kafka.nonblockingkafka.consumer;
+package com.example.kafka.consumer;
 
-import com.example.kafka.nonblockingkafka.factory.ConsumerFactory;
-import com.example.kafka.nonblockingkafka.factory.ProducerRecordFactory;
-import com.example.kafka.nonblockingkafka.model.ExampleBody;
-import com.example.kafka.nonblockingkafka.model.ExampleQueueMessage;
-import com.example.kafka.nonblockingkafka.model.UniqueKafka;
-import com.example.kafka.nonblockingkafka.producer.ExampleProducer;
+import com.example.kafka.factory.ConsumerFactory;
+import com.example.kafka.factory.ProducerRecordFactory;
+import com.example.kafka.model.ExampleBody;
+import com.example.kafka.model.ExampleQueueMessage;
+import com.example.kafka.model.UniqueKafka;
+import com.example.kafka.producer.ExampleProducer;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
